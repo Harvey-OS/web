@@ -4,9 +4,9 @@ Our community is growing in members and interest.
 
 Now Harvey has many people around its community, looking, experimenting,
 testing... but in order to set main lines and goals, there is a bunch of people
-in what we usual call "core team" making decisions, improving the system, testing
+in what we usually call "core team" making decisions, improving the system, testing
 and resolving problems across all the source.
-That doesn't mean you couldn't help us, through Gerrit you can submit patches,
+That doesn't mean you couldn't help us, through Github [pull-request](https://help.github.com/articles/using-pull-requests/) method you can submit patches,
 new programs or improvements that we will review and possibly accept. Every hand
 is welcome.
 
