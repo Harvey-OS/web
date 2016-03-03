@@ -1,8 +1,3 @@
-# Harvey OS
-
-<div class="lazy">
-  <img src="img/harvey-os-logo.png" alt="Harvey OS logo"></img>
-</div>
 
 ## What is Harvey?
 

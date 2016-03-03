@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}</title>
+
+  {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
+  {% if site_author %}<meta name="author" content="{{ site_author }}">{% endif %}
+  {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
+
+  {% if favicon %}
+    <link rel="shortcut icon" href="{{ favicon }}">
+  {% else %}
+    <link rel="shortcut icon" href="{{ base_url }}/img/favicon.png">
+  {% endif %}
+
+
+  {% for path in extra_css %}
+    <link href="{{ path }}" rel="stylesheet">
+  {% endfor %}
+
+  {% for path in extra_javascript %}
+    <script src="{{ path }}"></script>
+  {% endfor %}
+
+  {% if google_analytics %}
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{{ google_analytics[0] }}', '{{ google_analytics[1] }}');
+      ga('send', 'pageview');
+  </script>
+  {% endif %}
+
+  {% block extrahead %}
+  {% endblock %}
+
+  {% include "inline-styles.html" %}
+
+</head>
+
+
+
+<body class="flexer">
+
+  <header>
+    <nav>
+      
+      <div class="nav-container">
+        
+        <div class="brand"><a href="/">HARVEY OS</a></div>
+        
+        <div class="toggle">
+          <span class="toggle-brand"><a href="/">HARVEY OS</a></span>
+          <label for="drop" class="burger">&#9776;</label>
+        </div>
+        <input id="drop" type="checkbox">
+
+        <ul class="menu">
+          {% for nav_item in nav %}
+            {% include "nav.html" %}
+          {% endfor %}
+        </ul>
+
+        <ul class="extra">
+          {% include "nav-extra-icons.html" %}        
+        </ul>
+        
+      </div>
+      
+    </nav>
+  </header>
+
+
+  {% block content %}
+  <div class="container {% if not page_title %}homepage{% else %}{{ page_title | lower }}{% endif %}">
+  
+      <main {% if page_title in config.extra.toc_pages or not page_title %}class="with-toc"{% endif %}>    
+        <article>
+        {% if not page_title %}
+          <h1>{{ site_name }}</h1>
+          <p class="tagline"> ~ {{ page_description }}</p>
+        {% endif %}
+          
+            {{content}}
+        </article>
+      </main>
+
+      {% block toc %}
+        {% if page_title in config.extra.toc_pages %}
+          <aside>
+            <div class="toc">{% include "toc.html" %}</div>
+          </aside>
+        {% endif %}
+
+        {% if not page_title %}
+          <aside>
+            <img src="img/harvey-os-logo.svg" alt="Harvey logo" title="Harvey logo" />
+          </aside>
+        {% endif %}        
+      {% endblock toc %}      
+
+  </div>
+  {% endblock content %}
+
+
+
+  {% block footer %}
+    <footer>
+      <p>
+      {% if copyright %}
+           <a href="https://creativecommons.org/licenses/by/3.0/">CC BY</a> - {{ copyright }} - {{ build_date_utc.strftime('%Y') }}
+      {% endif %}
+      </p>
+    </footer>
+  {% endblock %}
+
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"> -->
+<!--  <link rel="stylesheet" href="{{ base_url }}/css/harvey.min.css"> -->
+  
+
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Roboto+Condensed:400,700:latin', 'Open+Sans::latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
+
+  <script type="text/javascript">
+    function init() {
+      var imgDefer = document.getElementsByTagName('img');
+      for (var i=0; i<imgDefer.length; i++) {
+        if(imgDefer[i].getAttribute('data-src')) {
+          imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+        } } }
+    window.onload = init;
+  </script>
+
+
+  <!--
+  MkDocs version      : {{ mkdocs_version }}
+  Docs Build Date UTC : {{ build_date_utc }}
+  -->
+</body>
+</html>
