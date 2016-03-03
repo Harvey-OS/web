@@ -104,6 +104,11 @@ footer {
 
 footer p { padding:0 ; margin-top: .7em; text-align: center;}
 
+.container.homepage #logo { float: right; max-width: 30%; margin: .5em .2em 0 .5em; }
+.container.homepage h2 { margin: 0; padding: .2em 0; }
+
+
+
 
 
 /* Medium screens (i.e. smartphone lanscape) */
@@ -117,7 +122,11 @@ footer p { padding:0 ; margin-top: .7em; text-align: center;}
   .extra svg { width: 1.8em; padding-top: .2em; fill: white;}
   .extra svg:hover { fill: #eb6864;}
   .extra:after { content: " "; clear: both; }
+
+  .container.homepage #logo { margin: 1.6em .2em 0 1em; }
 }
+
+
 
 
 /* Large screens - 1025px */
@@ -164,16 +173,14 @@ footer p { padding:0 ; margin-top: .7em; text-align: center;}
   
   main { width: 75%;}
   
-  .container.homepage  { margin-top: 2em; flex: 1; width: 75%;}
-  .container.homepage aside { width: 40%; text-align: right; order: 2;}
-  .container.homepage main  { width: 60%; padding-left: 3em; box-sizing: border-box; }
-  .container.homepage h1 { margin: 0 0 .2em 0; padding:0; display: inline-block;}
-  .container.homepage img { margin: 1em 0 0 1em; }
+  .container.homepage  { margin-top: 2em; flex: 1; }
+  .container.homepage h1 { margin: 0 0 1.5em 0; padding:0; display: inline-block;}
+  .container.homepage #logo { float: right; margin: 6.5em 0 0 1em; max-width: 100%;}
 
   h1 { display: block; margin-bottom: 1.2em;}
 
   .toc {position: fixed;}
-
+  
 
   footer:before {
     content: " ";

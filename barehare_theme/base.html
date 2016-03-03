@@ -79,11 +79,13 @@
   {% block content %}
   <div class="container {% if not page_title %}homepage{% else %}{{ page_title | lower }}{% endif %}">
   
-      <main {% if page_title in config.extra.toc_pages or not page_title %}class="with-toc"{% endif %}>    
+      <main {% if page_title in config.extra.toc_pages %}class="with-toc"{% endif %}>
+        
         <article>
         {% if not page_title %}
           <h1>{{ site_name }}</h1>
           <p class="tagline"> ~ {{ page_description }}</p>
+          <img id="logo" src="img/harvey-os-logo.svg" alt="Harvey logo" title="Harvey logo" />
         {% endif %}
           
             {{content}}
@@ -94,12 +96,6 @@
         {% if page_title in config.extra.toc_pages %}
           <aside>
             <div class="toc">{% include "toc.html" %}</div>
-          </aside>
-        {% endif %}
-
-        {% if not page_title %}
-          <aside>
-            <img src="img/harvey-os-logo.svg" alt="Harvey logo" title="Harvey logo" />
           </aside>
         {% endif %}        
       {% endblock toc %}      
