@@ -49,11 +49,11 @@
 
   <header>
     <nav>
-      
+
       <div class="nav-container">
-        
+
         <div class="brand"><a href="/">HARVEY OS</a></div>
-        
+
         <div class="toggle">
           <span class="toggle-brand"><a href="/">HARVEY OS</a></span>
           <label for="drop" class="burger">&#9776;</label>
@@ -67,38 +67,39 @@
         </ul>
 
         <ul class="extra">
-          {% include "nav-extra-icons.html" %}        
+          {% include "nav-extra-icons.html" %}
         </ul>
-        
+
       </div>
-      
+
     </nav>
   </header>
 
 
   {% block content %}
   <div class="container {% if not page_title %}homepage{% else %}{{ page_title | lower }}{% endif %}">
-  
+
       <main {% if page_title in config.extra.toc_pages %}class="with-toc"{% endif %}>
-        
+
         <article>
         {% if not page_title %}
           <h1>{{ site_name }}</h1>
           <p class="tagline"> ~ {{ page_description }}</p>
           <img id="logo" src="img/harvey-os-logo.svg" alt="Harvey logo" title="Harvey logo" />
         {% endif %}
-          
+
             {{content}}
         </article>
-      </main>
 
-      {% block toc %}
-        {% if page_title in config.extra.toc_pages %}
+        {% block toc %}
+          {% if page_title in config.extra.toc_pages %}
           <aside>
             <div class="toc">{% include "toc.html" %}</div>
           </aside>
-        {% endif %}        
-      {% endblock toc %}      
+          {% endif %}
+        {% endblock toc %}
+
+      </main>
 
   </div>
   {% endblock content %}
@@ -117,20 +118,19 @@
 
 <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"> -->
 <!--  <link rel="stylesheet" href="{{ base_url }}/css/harvey.min.css"> -->
-  
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="{{ base_url }}/js/fontfaceobserver.js"></script>
 
   <script type="text/javascript">
-    WebFontConfig = {
-      google: { families: [ 'Roboto+Condensed:400,700:latin', 'Open+Sans::latin' ] }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })(); </script>
+    var observer = new FontFaceObserver('Open Sans', {weight: 400});
+
+    observer.check().then( function(){
+            document.documentElement.className += " fonts-loaded";
+        });
+  </script>
+
 
   <script type="text/javascript">
     function init() {
@@ -141,6 +141,8 @@
         } } }
     window.onload = init;
   </script>
+
+
 
 
   <!--
