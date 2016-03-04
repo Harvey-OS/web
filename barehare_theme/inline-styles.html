@@ -56,10 +56,36 @@ nav a:hover { /* color: white; */border-bottom: none;}
 .toggle-brand a { display: inline; font-size: 1em; padding:0;}
 .toggle-brand a:hover { background: transparent; color: #eb6864;}
 
+/*
 .burger {float: right; padding:0 0.7em;}
-
 .burger:hover, .burger:active {background-color: #eb6864;}
 .burger:after { content: " "; clear: both;}
+*/
+
+.burger {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    display: inline-block;
+    width: 1.15em;
+    height: 0.7em;
+    margin-right: 0.3em;
+    border-top: 0.15em solid #fff;
+    border-bottom: 0.15em solid #fff;
+}
+
+.burger:before {
+    content: "";
+    position: absolute;
+    top: 0.25em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.15em solid #fff;
+}
+
+
+label.burger:active { background-color: #eb6864;}
+
 
 [id^=drop] { display: none; }
 [id^=drop]:checked + ul {  display: block; margin: 0; padding: 0;}
@@ -114,15 +140,15 @@ footer p { padding:0 ; margin-top: .7em; text-align: center;}
 
 
 
-/* Medium screens (i.e. smartphone lanscape) */
+/* Medium screens (i.e. smartphone landscape) */
 @media only screen and (min-width: 29em) {
 
   .extra { display: inline-flex; list-style: none; margin: 0; padding: 0; vertical-align: middle;}
-  .extra { position: absolute; top: .05em; right: 4em;}
+  .extra { position: absolute; top: 0; right: 6.5em;}
   .extra li { padding: 0 .3em; }
 
   .extra a:hover { background-color: transparent; }
-  .extra svg { width: 1.8em; fill: white;}
+  .extra svg { width: 2em; fill: white;}
   .extra svg:hover { fill: #eb6864;}
   .extra:after { content: " "; clear: both; }
 
