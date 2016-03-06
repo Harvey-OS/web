@@ -1,8 +1,6 @@
 # News & events
 
-<a name="FOSDEM 2016"></a>
-
-## Harvey at FOSDEM 2016
+## Harvey at FOSDEM 2016  <a name="FOSDEM 2016"></a>
 January 30/31, 2016
 
 European members of core team were at FOSDEM2016.
@@ -11,16 +9,14 @@ We assisted to some devrooms and lightning talks, all of them interesting.
 
 Here there are a couple of pictures trying to show Harvey as it was at that moment.
 
-![Preparing Harvey](img/fosdem2016/photo_2016-02-11_00-27-30.jpg)
+[![Preparing Harvey](img/fosdem2016/thumb-photo_2016-02-11_00-27-30.jpg)](img/fosdem2016/photo_2016-02-11_00-27-30.jpg)
 Building and preparing the system
 
-![Harvey at big screen](img/fosdem2016/photo_2016-02-11_00-27-40.jpg)
+[![Harvey at big screen](img/fosdem2016/thumb-photo_2016-02-11_00-27-40.jpg)](img/fosdem2016/photo_2016-02-11_00-27-40.jpg)
 Running Harvey! (Left to right: Keith, Sevki, Álvaro and Rafael)
 
-
-<a name="Factotum, Fossil disk, Go and drawterming Harvey"></a>
-
-## Things you can do now in Harvey
+---
+## Things you can do now in Harvey <a name="Factotum, Fossil disk, Go and drawterming Harvey"></a>
 December 20, 2015
 
 Many new things have been changed or implemented last months. We were working a lot and now, even for our own eyes, we went far away than we thought at the begining, almost a year ago. But we want more, so remember: we need programmers. Are you ready to join Harvey?
@@ -53,16 +49,14 @@ And don't forget you can come to meet us in [Fosdem 2016](http://fosdem.org), yo
 
 ---
 
-<a name="debugging-harvey-gdb"></a>
-## Using gdb to debug Harvey
+## Using gdb to debug Harvey <a name="debugging-harvey-gdb"></a>
 August 8, 2015
 
 A page has been added to the wiki which describes how to debug Harvey using gdb.  See [Debugging Harvey in gdb](https://github.com/Harvey-OS/harvey/wiki/Debugging-Harvey-in-gdb) for details.
 
 ---
 
-<a name="ape-is-ready"></a>
-## APE is ready
+## APE is ready <a name="ape-is-ready"></a>
 August 6, 2015
 
 APE (the [ANSI/POSIX Environment](http://plan9.bell-labs.com/sys/doc/ape.html)) has been finally given the green light:
@@ -79,9 +73,8 @@ A quick [getting started with APE](https://github.com/Harvey-OS/ape/wiki/Getting
 
 ---
 
-<a name="broken-scheduler"></a>
-## Broken scheduler, working scheduler
-August 1, 2015	
+## Broken scheduler, working scheduler<a name="broken-scheduler"></a>
+August 1, 2015  
 
 Despite the hot summer, Harvey has been progressing steadily during these months. So, a big THANK YOU to everyone involved, you all rock!
 
@@ -108,8 +101,7 @@ Hooray!
 
 ---
 
-<a name="usenix-2015-materials"></a>
-## USENIX presentation slides available 
+## USENIX presentation slides available <a name="usenix-2015-materials"></a>
 July 20, 2015
 
 Here are Harvey's [presentation slides](docs/Harvey-Usenix-2015-ATC-BOF-slides.pdf) at USENIX 2015 ATC BOF.
@@ -118,8 +110,7 @@ We will update this note when we can link to a video of the talk.
 
 ---
 
-<a name="developers-wanted"></a>
-## Looking for developers!
+## Looking for developers! <a name="developers-wanted"></a>
 July 15, 2015
 
 For the next couple of months, the project is looking for developers to step up and help get Harvey ready for prime time.
@@ -132,8 +123,7 @@ There still exist areas for continued development, and YOU can make a difference
 
 ---
 
-<a name="usenix-2015"></a>
-##Harvey at USENIX 2015
+##Harvey at USENIX 2015 <a name="usenix-2015"></a>
 July 8, 2015
 
 
@@ -167,13 +157,13 @@ breaks pxelinux.0 -- it loads and gets to some point, and then instant
 reset. We can still boot harvey on the AMI BIOS nodes, but only from a USB stick. 
 We'll be reflashing these too. 
 
-![mini cluster](img/usenix2015/mini-cluster.jpg)
+[![mini cluster](img/usenix2015/thumb-mini-cluster.jpg)](img/usenix2015/mini-cluster.jpg)
 Harvey mini-cluster ready to fire up (or catch fire)
 
-![boffins to blame](img/usenix2015/boffins-to-blame.jpg)
+[![boffins to blame](img/usenix2015/thumb-boffins-to-blame.jpg)](img/usenix2015/boffins-to-blame.jpg)
 John on the floor, trying to make the minnowmax boot
 Harvey, Aki on the chair making Harvey build on a mac and boot off of one.
 
-![video of error](img/usenix2015/video-of-error.jpg)
+[![video of error](img/usenix2015/thumb-video-of-error.jpg)](img/usenix2015/video-of-error.jpg)
 John decided taking a video of the boot sequence would
 be the best way to capture the sub-second error message.
