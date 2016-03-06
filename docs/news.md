@@ -9,10 +9,10 @@ We assisted to some devrooms and lightning talks, all of them interesting.
 
 Here there are a couple of pictures trying to show Harvey as it was at that moment.
 
-![Preparing Harvey](img/fosdem2016/photo_2016-02-11_00-27-30.jpg)
+[![Preparing Harvey](img/fosdem2016/thumb-photo_2016-02-11_00-27-30.jpg)](img/fosdem2016/photo_2016-02-11_00-27-30.jpg)
 Building and preparing the system
 
-![Harvey at big screen](img/fosdem2016/photo_2016-02-11_00-27-40.jpg)
+[![Harvey at big screen](img/fosdem2016/thumb-photo_2016-02-11_00-27-40.jpg)](img/fosdem2016/photo_2016-02-11_00-27-40.jpg)
 Running Harvey! (Left to right: Keith, Sevki, Álvaro and Rafael)
 
 ---
@@ -74,7 +74,7 @@ A quick [getting started with APE](https://github.com/Harvey-OS/ape/wiki/Getting
 ---
 
 ## Broken scheduler, working scheduler<a name="broken-scheduler"></a>
-August 1, 2015	
+August 1, 2015  
 
 Despite the hot summer, Harvey has been progressing steadily during these months. So, a big THANK YOU to everyone involved, you all rock!
 
@@ -157,13 +157,13 @@ breaks pxelinux.0 -- it loads and gets to some point, and then instant
 reset. We can still boot harvey on the AMI BIOS nodes, but only from a USB stick. 
 We'll be reflashing these too. 
 
-![mini cluster](img/usenix2015/mini-cluster.jpg)
+[![mini cluster](img/usenix2015/thumb-mini-cluster.jpg)](img/usenix2015/mini-cluster.jpg)
 Harvey mini-cluster ready to fire up (or catch fire)
 
-![boffins to blame](img/usenix2015/boffins-to-blame.jpg)
+[![boffins to blame](img/usenix2015/thumb-boffins-to-blame.jpg)](img/usenix2015/boffins-to-blame.jpg)
 John on the floor, trying to make the minnowmax boot
 Harvey, Aki on the chair making Harvey build on a mac and boot off of one.
 
-![video of error](img/usenix2015/video-of-error.jpg)
+[![video of error](img/usenix2015/thumb-video-of-error.jpg)](img/usenix2015/video-of-error.jpg)
 John decided taking a video of the boot sequence would
 be the best way to capture the sub-second error message.
