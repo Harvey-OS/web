@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}</title>
 
-  {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
+  {% if not page_title %}
+    <meta name="description" content="A Fresh Take on Plan 9. Harvey is an operating system evolved from Plan 9 GPL'ed source code. Its aim is to work with GCC and CLANG, do away with Unix's wrinkles, and allow for new ways of working.">
+  {% endif %}
+
+  {% for meta_dictio in config.extra.meta_desc %}
+     {% for key, value in meta_dictio.items() %}
+       {% if key == page_title %}
+          <meta name="description" content="{{value}}">
+       {% endif %}
+     {% endfor %}
+  {% endfor %}
+
   {% if site_author %}<meta name="author" content="{{ site_author }}">{% endif %}
   {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
 
@@ -39,6 +50,7 @@
   {% block extrahead %}
   {% endblock %}
 
+  {% include "inline-schema-data.html" %}
   {% include "inline-styles.html" %}
 
 </head>
