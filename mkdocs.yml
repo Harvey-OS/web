@@ -23,3 +23,9 @@ copyright: The Harvey OS Team
 extra:
   toc_pages:
     - News
+  meta_desc:
+    - About: "Harvey OS About page is where you come to see who is behind the madness. Unix admins, Plan 9 admirers, system programmers, C & assembler devotees. And even stranger things."
+    - News: "News and events around Harvey OS, the operating system that evolved from Plan 9."
+    - Download: "Harvey OS software releases."
+    - Community: "The Harvey community assists, directly or indirectly, to the development and promotion of Harvey OS. This page lists the places were people and groups around the Harvey OS project gather."
+
