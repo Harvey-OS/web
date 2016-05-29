@@ -21,7 +21,7 @@ APEX is released.
 ZFS project.
 
 >We started to work on ZFS as main file system for Harvey, though we still use fossil for disks.
->At thits time, we're closer to have a file server running from linux that understands 9P to be suitable to use with Harvey.
+>At this time, we're closer to have a file server running from linux that understands 9P to be suitable to use with Harvey.
 
 If you are interested in something of this or in start a new project, just tell us about it in our [list](http://groups.google.com/forum/#!forum/harvey).
 
