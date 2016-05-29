@@ -1,5 +1,30 @@
 # News & events
 
+## Clang, Intel C Compiler, APEX and ZFS<a name="Clang, Icc, APEX and ZFS"></a>
+May 30, 2016
+
+Now Harvey is being built with clang and icc.
+
+>Though work on gcc port is in progress.
+>This means that clang is scheduled now to be ported.
+>Thanks to Ron Minnich, Harvey can be built with icc now as a third toolchain. Always trying to keep the code
+>more portable as possible.
+
+APEX is released.
+
+>We imported many things from [musl libc](https://www.musl-libc.org/).
+>Now a new stdio and others are available, improving the works on gcc and clang ports.
+>There are still some parts pending to be included, like musl complex and stdioext code. Trying to do the software porting tasks easier.
+>You can take a look at [its repo](https://github.com/Harvey-OS/apex) and [its wiki](https://github.com/Harvey-OS/apex/wiki).
+>Also we are using clang to build APEX now.
+
+ZFS project.
+
+>We started to work on ZFS as main file system for Harvey, though we still use fossil for disks.
+>At thits time, we're closer to have a file server running from linux that understands 9P to be suitable to use with Harvey.
+
+If you are interested in something of this or in start a new project, just tell us about it in our [list](http://groups.google.com/forum/#!forum/harvey).
+
 ## Harvey at FOSDEM 2016  <a name="FOSDEM 2016"></a>
 January 30/31, 2016
 
