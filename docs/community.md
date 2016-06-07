@@ -12,7 +12,7 @@ is welcome.
 
 Below there are some links useful to participate in our community and become a Harvey enthusiast
 that could be interesting for you. For writing in mailing list, you need to request
-an invitation. Once you're in it, you can request an invitation to Slack channels.
+an invitation. Now you can request your own invitation to Slack channels, come and meet us!.
 
 ## Mailing lists 
 
@@ -32,4 +32,4 @@ an invitation. Once you're in it, you can request an invitation to Slack channel
 
 ## Slack
 
-* <a href="https://harvey-os.slack.com/messages/general/">Harvey Slack channels</a>
+* <a href="https://harvey-slack.herokuapp.com/">Harvey Slack channels</a>
