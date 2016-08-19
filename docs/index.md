@@ -7,7 +7,7 @@ Our aim is to provide a modern, distributed, 64 bit operating system that does a
 
 ## News & events
 
-* [Clang, Icc, APEX and ZFS](news#clang-intel-c-compiler-apex-and-zfs)
+* [Clang, Icc and APEX](news#clang-intel-c-compiler-and-apex)
 * [FOSDEM 2016](news#harvey-at-FOSDEM-2016)
 * [Things you can do now in Harvey](news#things-you-can-do-now-in-harvey)
 * [Using gdb to debug Harvey](news#debugging-harvey-gdb)

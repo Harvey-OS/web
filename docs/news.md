@@ -1,6 +1,6 @@
 # News & events
 
-## Clang, Intel C Compiler, APEX and ZFS<a name="Clang, Icc, APEX and ZFS"></a>
+## Clang, Intel C Compiler and APEX<a name="Clang, Icc and APEX"></a>
 May 30, 2016
 
 Now Harvey is being built with clang and icc.
@@ -18,10 +18,9 @@ APEX is released.
 >You can take a look at [its repo](https://github.com/Harvey-OS/apex) and [its wiki](https://github.com/Harvey-OS/apex/wiki).
 >Also we are using clang to build APEX now.
 
-ZFS project.
+FS project.
 
->We started to work on ZFS as main file system for Harvey, though we still use fossil for disks.
->At this time, we're closer to have a file server running from linux that understands 9P to be suitable to use with Harvey.
+>We started to work on some FS alternative to fossil, looking for a main file system for Harvey, though we still use fossil for disks.
 
 If you are interested in something of this or in start a new project, just tell us about it in our [list](http://groups.google.com/forum/#!forum/harvey).
 
