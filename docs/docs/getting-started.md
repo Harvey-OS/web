@@ -1,6 +1,6 @@
 #  Getting started with Harvey OS 
 
-This is Plan 9 for amd64 built with gcc (and soon, I hope, clang).
+Harvey is a distributed operating system. It can be built with clang, gcc or icc (Intel Compiler). It can run on amd64 (x86_64), main line of the project, RISC-V and aarch64 (ARM 64).
 
 This file is a quick list of instructions to get you started quickly.
 
