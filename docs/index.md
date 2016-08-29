@@ -1,7 +1,7 @@
 
 ## What is Harvey?
 
-Harvey is an effort to provide a modern, distributed, 64 bit operating system that does away with Unix's wrinkles and allows for new ways of working. It can be built with <a href="https://gcc.gnu.org/">gcc</a> and <a href="http://clang.llvm.org/">clang</a> and has an ANSI/POSIX compliant subsystem.
+Harvey is an effort to provide a modern, distributed, 64 bit operating system that provides a simple and nice environment for researching and allows for new ways of working. It can be built with <a href="https://gcc.gnu.org/">gcc</a> and <a href="http://clang.llvm.org/">clang</a> and has an ANSI/POSIX compliant subsystem.
 
 ## News & events
 

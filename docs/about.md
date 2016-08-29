@@ -8,8 +8,8 @@
 - Clang and Intel C Compiler compatible
 - Compile in Linux or OSX using Harvey's headers and libs, no need to change anything else
 - Fast compilation of the whole system
-- All Plan 9 userland apps available
-- Plans to add Wayland and X11 with rio-like multiplexing, tty emulation over Harvey console, a new fileserver, native toolchain and more
+- A large set of userland apps available
+- Plans to add Wayland and X11, tty emulation over Harvey console, a new fileserver, native toolchain and more
 - Build binaries that will run on Linux and Harvey with no changes.
 - Go programming language port in progress.
 
