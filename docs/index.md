@@ -3,6 +3,8 @@
 
 Harvey is an effort to provide a modern, distributed, 64 bit operating system that provides a simple and nice environment for researching and allows for new ways of working. It can be built with <a href="https://gcc.gnu.org/">gcc</a> and <a href="http://clang.llvm.org/">clang</a> and has an ANSI/POSIX compliant subsystem.
 
+For now it runs in x86_64 (amd64) machines, and soon in RISCV and ARM64 (aarch64). We're improving now the kernel and userland, trying to bring up a full usable operating system, different and, at the same time, keeping ideas and concepts from other platforms that influenced computing world during years. 
+
 ## News & events
 
 * [Clang, Icc and APEX](news#clang-intel-c-compiler-and-apex)
