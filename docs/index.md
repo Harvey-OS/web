@@ -5,6 +5,8 @@ Harvey is an effort to provide a modern, distributed, 64 bit operating system th
 
 For now it runs in x86_64 (amd64) machines, and soon in RISCV and ARM64 (aarch64). We're improving now the kernel and userland, trying to bring up a full usable operating system, different and, at the same time, keeping ideas and concepts from other platforms that influenced computing world during years. 
 
+Harvey is open source, and it's distributed under [GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+
 ## News & events
 
 * [Clang, Icc and APEX](news#clang-intel-c-compiler-and-apex)
