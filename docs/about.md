@@ -10,7 +10,6 @@
 - Fast compilation of the whole system
 - A large set of userland apps available
 - Plans to add Wayland and X11, tty emulation over Harvey console, a new fileserver, native toolchain and more
-- Build binaries that will run on Linux and Harvey with no changes.
 - Go programming language port in progress.
 
 ### About the Name
