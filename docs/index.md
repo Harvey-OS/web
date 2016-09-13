@@ -9,8 +9,8 @@ Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/lice
 
 ## Getting Harvey
 
-- Source code: [github here](https://github.com/Harvey-OS/harvey).
-- Getting started: [here](https://github.com/Harvey-OS/harvey/wiki/Getting-Started).
+- [Source code](https://github.com/Harvey-OS/harvey).
+- [Getting started](https://github.com/Harvey-OS/harvey/wiki/Getting-Started).
 
 
 ## News & events
