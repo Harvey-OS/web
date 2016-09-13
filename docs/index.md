@@ -7,6 +7,12 @@ For now it runs in x86_64 (amd64) machines, and soon in RISCV and ARM64 (aarch64
 
 Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
+## Getting Harvey
+
+- Source code: [github here](https://github.com/Harvey-OS/harvey).
+- Getting started: [here](https://github.com/Harvey-OS/harvey/wiki/Getting-Started).
+
+
 ## News & events
 
 * [Clang, Icc and APEX](news#clang-intel-c-compiler-and-apex)
