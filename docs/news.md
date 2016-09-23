@@ -1,5 +1,11 @@
 # News & events
 
+## Running Harvey with Minimega
+Sep 23, 2016
+
+Do you wnat to see how to run 30 cpu servers with [minimega](http://minimega.org/)?
+Now in [Harvey's wiki](https://github.com/Harvey-OS/harvey/wiki/Using-minimega-to-run-dozens-of-Harvey-VMs) we'll teach how to make your own cloud of Harvey machines.
+
 ## Clang, Intel C Compiler and APEX<a name="Clang, Icc and APEX"></a>
 May 30, 2016
 
