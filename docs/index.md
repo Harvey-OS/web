@@ -16,6 +16,7 @@ Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/lice
 
 ## News & events
 
+* [Running Harvey on Minimega](news#running-harvey-with-minimega)
 * [Clang, Icc and APEX](news#clang-intel-c-compiler-and-apex)
 * [FOSDEM 2016](news#harvey-at-FOSDEM-2016)
 * [Things you can do now in Harvey](news#things-you-can-do-now-in-harvey)
