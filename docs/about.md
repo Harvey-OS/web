@@ -9,8 +9,8 @@
 - Compile in Linux or OSX using Harvey's headers and libs, no need to change anything else
 - Fast compilation of the whole system
 - A large set of userland apps available
-- Plans to add Wayland and X11, tty emulation over Harvey console, a new fileserver, native toolchain and more
-- Go programming language port in progress.
+- Plans to add a new GUI, a new fileserver, native toolchains and more
+- Go programming language port <a href="https://github.com/Harvey-OS/harvey/wiki/Go-on-Harvey">available</a>.
 
 ### About the Name
 

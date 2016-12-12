@@ -14,22 +14,27 @@ Below there are some links useful to participate in our community and become a H
 that could be interesting for you. For writing in mailing list, you need to request
 an invitation. Now you can request your own invitation to Slack channels, come and meet us!.
 
-## Mailing lists 
+### Mailing lists 
 
 * <a href="https://groups.google.com/forum/#!forum/harvey">Harvey OS</a>
 
-## Wiki 
+### Wiki 
 
 * <a href="https://github.com/Harvey-OS/harvey/wiki">Harvey wiki</a>
 
-## Harvey-OS Man Pages
+### Harvey-OS Man Pages
 
 * <a href="https://sevki.io/harvey/sys/man/1/0intro">Harvey OS manual</a>
 
-## Blog
+### Blog
 
 * <a href="https://blog.harvey-os.org">Harvey official blog</a>
 
-## Slack
+### Slack
 
 * <a href="https://harvey-slack.herokuapp.com/">Harvey Slack channels</a>
+
+### Merchandising
+
+* <a href="https://www.zazzle.es/harvey_os_supplies">Harvey OS supplies</a>
+
