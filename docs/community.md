@@ -22,9 +22,9 @@ an invitation. Now you can request your own invitation to Slack channels, come a
 
 * <a href="https://github.com/Harvey-OS/harvey/wiki">Harvey wiki</a>
 
-### Harvey-OS Man Pages
+[comment]: <> (### Harvey-OS Man Pages)
 
-* <a href="https://sevki.io/harvey/sys/man/1/0intro">Harvey OS manual</a>
+[comment]: <> (* <a href="https://sevki.io/harvey/sys/man/1/0intro">Harvey OS manual</a>)
 
 ### Blog
 
