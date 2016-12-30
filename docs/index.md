@@ -16,6 +16,8 @@ Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/lice
 
 ## News & events
 
+* [Harvey is now multiarch: say hello to RISC-V](news#Harvey-is-now-multiarch)
+* [Full virtualization: Harvey is now virtio compatible](news#full-virtualization)
 * [Go programming language on Harvey](news#go-programming-language-on-harvey)
 * [Running Harvey on Minimega](news#running-harvey-with-minimega)
 * [Clang, Icc and APEX](news#clang-intel-c-compiler-and-apex)

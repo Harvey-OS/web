@@ -1,5 +1,18 @@
 # News & events
 
+## Harvey is now multiarch: say hello to RISC-V<a name="harvey-is-now-multiarch"></a>
+Dec 30, 2016
+
+Ending this year, Ron G. Minnich has got Harvey running in [RISC-V](https://riscv.org/) architecture, booting Harvey on [Spike (ISA Simulator)](https://riscv.org/software-tools/risc-v-isa-simulator/) and running rc shell on it. But he never rests and now is working on bringing it to QEMU and to FPGA.
+It's a big step for Harvey because we fixed some multiarch issues across the source and Ron found some bugs in timer interrupts in the hardware,
+so we all learned something.
+
+## Full virtualization: Harvey is now virtio compatible<a name="full-virtualization"></a>
+Dec 30, 2016
+
+Harvey has a new feature in X86_64 (amd64) architecture: now it uses the [Virtio](http://www.linux-kvm.org/page/Virtio) capabilities provided by QEMU. Follow our [wiki](https://github.com/Harvey-OS/harvey/wiki/Using-Virtio-(QEMU)) for more info. Thanks to Dmitry Golubovsky for his efforts and patience, showing that Harvey community is always happy to meet new members and receiving proposals that could grow the system.
+We hope this will encourage more people to jump to the sand and come to Harvey OS community for learning, teaching and getting some fun coding.
+
 ## Go programming language on Harvey
 Oct 20, 2016
 
