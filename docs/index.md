@@ -3,9 +3,11 @@
 
 Harvey is an effort to provide a modern, distributed, 64 bit operating system. A different environment for researching and finding new lines of work. It can be built with <a href="https://gcc.gnu.org/">gcc</a> and <a href="http://clang.llvm.org/">clang</a> and has an [ANSI/POSIX compliant subsystem](https://github.com/Harvey-OS/apex/wiki).
 
-For now it runs in x86_64 (amd64) machines, [RISC-V](https://riscv.org/) and soon in ARMv8 (AArch64/A64). We are improving the kernel and userland, trying to bring up a full usable operating system that is different and, at the same time, keeps ideas and concepts from other platforms that influenced the computing world for years. 
+For now it runs in x86_64 (amd64) machines, [RISC-V](https://riscv.org/) and soon in ARMv8 (AArch64/A64). We are improving the kernel and userland, trying to bring up a full usable operating system that is different and, at the same time, keeps ideas and concepts from other platforms that influenced the computing world for years.
 
 Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+
+### Harvey is a member of [Software Freedom Conservancy](https://github.com/Harvey-OS/harvey/wiki/Conservancy)
 
 ## Getting Harvey
 
@@ -16,6 +18,7 @@ Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/lice
 
 ## News & events
 
+* [Harvey OS joins the Software Freedom Conservancy](news#Harvey-joins-conservancy)
 * [Harvey is now multiarch: say hello to RISC-V](news#Harvey-is-now-multiarch)
 * [Full virtualization: Harvey is now virtio compatible](news#full-virtualization)
 * [Go programming language on Harvey](news#go-programming-language-on-harvey)
