@@ -7,7 +7,9 @@ For now it runs in x86_64 (amd64) machines, [RISC-V](https://riscv.org/) and soo
 
 Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
+-----
 ### Harvey is a member of [Software Freedom Conservancy](https://github.com/Harvey-OS/harvey/wiki/Conservancy)
+-----
 
 ## Getting Harvey
 
