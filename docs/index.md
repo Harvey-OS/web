@@ -11,6 +11,7 @@ Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/lice
 #### Harvey is a member of [Software Freedom Conservancy](https://github.com/Harvey-OS/harvey/wiki/Conservancy)
 -----
 
+
 ## Getting Harvey
 
 - [Source code](https://github.com/Harvey-OS/harvey)
