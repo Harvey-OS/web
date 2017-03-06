@@ -6,7 +6,7 @@ Harvey is a member project of [Software Freedom Conservancy](https://github.com/
 ## Donation
 Conservancy accepts donations on Harvey's behalf. Project money will typically go to defraying travel costs for developers to come to our meetings and hardware for development and experimentation. A portion of the money goes to Conservancy to cover their operating expenses. You can also donate [directly](https://sfconservancy.org/donate) to Software Freedom Conservancy's general fund.
 
-Paypal
+### Paypal
 To donate to Harvey via PayPal:
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
