@@ -1,7 +1,7 @@
 site_name: Harvey OS
 site_description: A distributed operating system 
 site_url: http://harvey-os.org
-site_favicon: img/icon/favicon.png
+site_favicon: img/favicon.png
 # copyright
 # google_analytics
 pages:
