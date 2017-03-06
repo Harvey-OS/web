@@ -34,6 +34,10 @@ an invitation. Now you can request your own invitation to Slack channels, come a
 
 * <a href="https://harvey-slack.herokuapp.com/">Harvey Slack channels</a>
 
+### Donations
+
+* <a href="/donate">Helping Harvey</a>
+
 ### Merchandising
 
 * <a href="https://www.zazzle.es/harvey_os_supplies">Harvey OS supplies</a>
