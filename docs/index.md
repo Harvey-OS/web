@@ -10,7 +10,7 @@ Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/lice
 -----
 Harvey is a member of [Software Freedom Conservancy](https://github.com/Harvey-OS/harvey/wiki/Conservancy)
 
-Help Harvey making a [donation](donate)!
+Help Harvey by making a [donation](donate)!
 
 -----
 
